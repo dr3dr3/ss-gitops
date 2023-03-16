@@ -1,6 +1,6 @@
 deploy:
-  revealmd: 
+  revealmd:
     build:
-      stg: BUILD-2023.03.14.07.02
+      stg: test
       can: BUILD-2023.03.14.07.02
       prd: BUILD-2023.03.14.07.02
