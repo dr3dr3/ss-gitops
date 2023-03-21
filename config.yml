@@ -3,5 +3,5 @@ deploy:
     build:
       target: BUILD-2023.03.21.02.10
       stg: BUILD-2023.03.21.02.10
-      can: BUILD-2023.03.21.01.57
+      can: BUILD-2023.03.21.02.10
       prd: BUILD-2023.03.20.13.20
