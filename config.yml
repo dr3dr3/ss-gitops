@@ -4,4 +4,4 @@ deploy:
       target: BUILD-2023.03.24.06.22
       stg: BUILD-2023.03.24.06.22
       can: BUILD-2023.03.24.06.22
-      prd: BUILD-2023.03.21.09.37
+      prd: BUILD-2023.03.24.06.22
