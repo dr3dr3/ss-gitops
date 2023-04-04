@@ -8,7 +8,7 @@ deploy:
   landing:
     build:
       target: BUILD-2023.04.04.22.48
-      stg: BUILD-2023.04.04.22.04
+      stg: BUILD-2023.04.04.22.48
       can: BUILD-2023.04.04.22.04
       prd: x
 repositories:
