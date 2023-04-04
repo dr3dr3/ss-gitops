@@ -5,3 +5,21 @@ deploy:
       stg: BUILD-2023.04.03.12.43
       can: BUILD-2023.04.03.12.43
       prd: BUILD-2023.04.03.12.43
+  landing:
+    build:
+      target: x
+      stg: x
+      can: x
+      prd: x
+
+repositories:
+  solutions:
+    revealmd: dr3dr3/devops-demo
+    landing: dr3dr3/ss-landing
+  core:
+    pipeline: dr3dr3/ss-pipeline
+    gitops: dr3dr3/ss-gitops
+  deployment:
+    stage: dr3dr3/devops-demo-stg
+    canary: dr3dr3/devops-demo-can
+    production: dr3dr3/devops-demo-prd
