@@ -2,7 +2,7 @@ deploy:
   revealmd:
     build:
       target: BUILD-2023.04.04.21.52
-      stg: BUILD-2023.04.03.12.43
+      stg: BUILD-2023.04.04.21.52
       can: BUILD-2023.04.03.12.43
       prd: BUILD-2023.04.03.12.43
   landing:
