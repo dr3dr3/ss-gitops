@@ -7,7 +7,7 @@ deploy:
       prd: BUILD-2023.04.03.12.43
   landing:
     build:
-      target: BUILD-2023.04.05.01.28
+      target: BUILD-2023.04.05.02.46
       stg: BUILD-2023.04.05.01.28
       can: BUILD-2023.04.04.22.48
       prd: x
