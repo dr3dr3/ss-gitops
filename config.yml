@@ -10,7 +10,7 @@ deploy:
       target: BUILD-2023.04.05.13.04
       stg: BUILD-2023.04.05.13.04
       can: BUILD-2023.04.05.13.04
-      prd: x
+      prd: BUILD-2023.04.05.13.04
 repositories:
   solutions:
     revealmd: dr3dr3/devops-demo
