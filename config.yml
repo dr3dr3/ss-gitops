@@ -9,7 +9,7 @@ deploy:
     build:
       target: BUILD-2023.04.05.13.04
       stg: BUILD-2023.04.05.13.04
-      can: BUILD-2023.04.04.22.48
+      can: BUILD-2023.04.05.13.04
       prd: x
 repositories:
   solutions:
