@@ -25,7 +25,7 @@ jobs:
         id: vars
         run: |
           values="$(yq '.repositories' 'repositories.yml')" || 'ERROR'
-          echo values
+          echo $values
           echo "CONFIG=$values" >> $GITHUB_OUTPUT
 
       - name: Validate Reveal-MD Repository Variables
