@@ -1,5 +1,5 @@
-name: ON-PUSH-REPOSITORIES
-run-name: Validate configuration settings in GitHub repositories
+name: REPOSITORY-VARIABLES
+run-name: Set / validate configured variables in GitHub repositories
 
 on:
   push:
@@ -9,24 +9,9 @@ on:
       - repositories.yml
 
 jobs:
-  validate:
-    name: Validate Configuration
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Checkout GitOps
-        uses: actions/checkout@v3
-        with:
-          repository: 'dr3dr3/ss-gitops'
-          ref: 'main'
-          token: ${{ secrets.GHA_PAT }}
-
-      - name: Variable GITOPS TEST
-        id: gitops-test
-        run: echo "CONFIG=$(yq '.repositories.core.gitops.var-TEST' 'repositories.yml')" >> $GITHUB_OUTPUT
-
-      - name: Validate Reveal-MD Repository Variables
-        if: ${{ steps.gitops-test.outputs.CONFIG != vars.TEST }}
-        env:
-            GH_TOKEN: ${{ github.token }}
-        run: gh variable set TEST --body "${{ steps.gitops-test.outputs.CONFIG }}"
+  repo-variables:
+    name: Set / Validate Repository Variables
+    uses: dr3dr3/ss-pipeline/.github/workflows/repository-variables.yml@main
+    with:
+      repo-gitops: ${{ github.repository }}
+    secrets: inherit
