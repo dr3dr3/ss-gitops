@@ -11,3 +11,7 @@ builds:
       stg: BUILD-2023.04.06.09.47
       can: BUILD-2023.04.06.09.47
       prd: BUILD-2023.04.05.13.04
+deploy:
+  revealmd:
+    build:
+      stg: BUILD-2023.04.14.03.37
