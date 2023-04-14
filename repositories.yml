@@ -21,7 +21,7 @@ repositories:
     gitops:
       ref: dr3dr3/ss-gitops
       secret-GHA_PAT: true
-      var-TEST: true
+      var-TEST: test1
   deployment:
     stage:
       ref: dr3dr3/devops-demo-stg
