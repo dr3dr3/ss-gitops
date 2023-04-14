@@ -1,0 +1,40 @@
+repositories:
+  solutions:
+    revealmd: 
+      ref: dr3dr3/devops-demo
+      active: true
+      var-CI_PATTERN: TBD_MAIN
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo/
+      secret-GHA_PAT: true
+      secret-IFTTT: true
+    landing: 
+      ref: dr3dr3/ss-landing
+      active: true
+      var-CI_PATTERN: TBD_MAIN
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo/
+      secret-GHA_PAT: true
+      secret-IFTTT: true
+  core:
+    pipeline:
+      ref: dr3dr3/ss-pipeline
+      secret-GHA_PAT: true
+    gitops:
+      ref: dr3dr3/ss-gitops
+      secret-GHA_PAT: true
+      var-TEST: true
+  deployment:
+    stage:
+      ref: dr3dr3/devops-demo-stg
+      var-GHP_ENV: stg
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo-stg/
+      var-SITE_URL: https://stg.andredreyer.com/
+    canary:
+      ref: dr3dr3/devops-demo-can
+      var-GHP_ENV: stg
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo-can/
+      var-SITE_URL: https://can.andredreyer.com/
+    production:
+      ref: dr3dr3/devops-demo-prd
+      var-GHP_ENV: stg
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo-prd/
+      var-SITE_URL: https://www.andredreyer.com/

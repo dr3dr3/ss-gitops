@@ -1,0 +1,13 @@
+builds:
+  revealmd:
+    build:
+      target: BUILD-2023.04.05.05.51
+      stg: BUILD-2023.04.05.05.51
+      can: BUILD-2023.04.05.05.51
+      prd: BUILD-2023.04.05.05.51
+  landing:
+    build:
+      target: BUILD-2023.04.06.09.47
+      stg: BUILD-2023.04.06.09.47
+      can: BUILD-2023.04.06.09.47
+      prd: BUILD-2023.04.05.13.04
