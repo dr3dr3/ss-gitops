@@ -21,13 +21,13 @@ jobs:
           ref: 'main'
           token: ${{ secrets.GHA_PAT }}
 
-      - name: Get Repository Variables
-        id: vars
+      - name: Variable GITOPS TEST
+        id: gitops-test
         run: |
-          values="$(yq '.repositories' 'repositories.yml')" || 'ERROR'
-          echo $values
-          echo "CONFIG=$values" >> $GITHUB_OUTPUT
+          value="$(yq '.repositories.core.gitops.var-TEST' 'repositories.yml')" || 'ERROR'
+          echo "Config = $value"
+          echo "CONFIG=$value" >> $GITHUB_OUTPUT
 
       - name: Validate Reveal-MD Repository Variables
-        if: ${{ fromJSON(steps.vars.outputs.CONFIG).core.gitops.var-TEST != vars.TEST }}
-        run: gh variable set TEST --body "${{ fromJSON(steps.vars.outputs.CONFIG).core.gitops.var-TEST }}"
+        if: ${{ steps.gitops-test.outputs.CONFIG != vars.TEST }}
+        run: gh variable set TEST --body "${{ steps.gitops-test.outputs.CONFIG }}"
