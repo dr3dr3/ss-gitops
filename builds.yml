@@ -15,4 +15,4 @@ deploy:
   revealmd:
     build:
       stg: BUILD-2023.06.20.22.56
-      can: BUILD-2023.05.05.03.49
+      can: BUILD-2023.06.20.22.56
