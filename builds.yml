@@ -1,7 +1,7 @@
 builds:
   revealmd:
     build:
-      target: BUILD-2023.06.20.22.42
+      target: BUILD-2023.06.20.22.56
       stg: BUILD-2023.04.05.05.51
       can: BUILD-2023.04.05.05.51
       prd: BUILD-2023.04.05.05.51
