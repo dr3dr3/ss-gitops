@@ -1,11 +1,10 @@
 build:
-  revealmd:
-    target: BUILD-2023.06.20.22.56
-    ci: BUILD-2023.04.05.05.51
-  landing:
-    target: BUILD-2023.06.20.23.58
-    ci: BUILD-2023.06.20.23.58
+  revealmd: BUILD-2023.06.20.22.56
+  landing: BUILD-2023.06.20.23.58
 deploy:
+  ci:
+    revealmd: BUILD-2023.06.20.22.56
+    landing: BUILD-2023.06.20.23.58
   stg: 
     revealmd: BUILD-2023.06.20.22.56
     landing: BUILD-2023.06.20.23.58
