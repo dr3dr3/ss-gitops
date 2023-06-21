@@ -5,12 +5,12 @@ deploy:
   ci:
     revealmd: BUILD-2023.06.20.22.56
     landing: BUILD-2023.06.20.23.58
-  stg: 
+  stg:
     revealmd: BUILD-2023.06.20.22.56
     landing: BUILD-2023.06.20.23.58
-  can: 
+  can:
     revealmd: BUILD-2023.06.20.22.56
     landing: BUILD-2023.06.20.23.58
-  prd: 
+  prd:
     revealmd: BUILD-2023.06.20.22.56
     landing: BUILD-2023.06.20.23.58
