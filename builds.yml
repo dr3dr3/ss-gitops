@@ -1,18 +1,17 @@
-builds:
+build:
   revealmd:
-    build:
-      target: BUILD-2023.06.20.22.56
-      stg: BUILD-2023.04.05.05.51
-      can: BUILD-2023.04.05.05.51
-      prd: BUILD-2023.04.05.05.51
+    target: BUILD-2023.06.20.22.56
+    ci: BUILD-2023.04.05.05.51
   landing:
-    build:
-      target: BUILD-2023.06.20.23.58
-      stg: BUILD-2023.06.20.23.58
-      can: BUILD-2023.04.06.09.47
-      prd: BUILD-2023.04.05.13.04
+    target: BUILD-2023.06.20.23.58
+    ci: BUILD-2023.06.20.23.58
 deploy:
-  revealmd:
-    build:
-      stg: BUILD-2023.06.20.22.56
-      can: BUILD-2023.06.20.22.56
+  stg: 
+    revealmd: BUILD-2023.06.20.22.56
+    landing: BUILD-2023.06.20.23.58
+  can: 
+    revealmd: BUILD-2023.06.20.22.56
+    landing: BUILD-2023.06.20.23.58
+  prd: 
+    revealmd: BUILD-2023.06.20.22.56
+    landing: BUILD-2023.06.20.23.58
