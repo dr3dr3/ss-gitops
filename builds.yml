@@ -16,6 +16,6 @@ deploy:
     landing: BUILD-2023.06.20.23.58
 builds:
   stg:
-    landing: BUILD-2023.10.23.06.49
+    landing: BUILD-2023.10.23.07.06
   can:
     landing: BUILD-2023.10.23.05.52
