@@ -17,3 +17,5 @@ deploy:
 builds:
   stg:
     landing: BUILD-2023.10.23.05.52
+  can:
+    landing: BUILD-2023.10.23.05.52
