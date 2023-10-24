@@ -18,6 +18,6 @@ builds:
   stg:
     landing: BUILD-2023.10.24.03.57
   can:
-    landing: BUILD-2023.10.24.03.43
+    landing: BUILD-2023.10.24.03.57
   prd:
     landing: BUILD-2023.10.23.07.32
