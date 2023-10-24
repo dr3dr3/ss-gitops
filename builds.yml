@@ -1,6 +1,6 @@
 build:
   revealmd: BUILD-2023.10.23.04.06
-  landing: BUILD-2023.10.24.02.16
+  landing: BUILD-2023.10.24.02.21
 deploy:
   ci:
     revealmd: BUILD-2023.10.23.04.06
