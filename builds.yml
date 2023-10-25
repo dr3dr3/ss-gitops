@@ -9,7 +9,7 @@ deploy:
     revealmd: BUILD-2023.10.25.23.40
     landing: BUILD-2023.10.24.06.37
   can:
-    revealmd: BUILD-2023.10.23.04.06
+    revealmd: BUILD-2023.10.25.23.40
     landing: BUILD-2023.10.24.06.37
   prd:
     revealmd: BUILD-2023.10.23.04.06
