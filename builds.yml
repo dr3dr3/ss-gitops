@@ -1,5 +1,5 @@
 build:
-  revealmd: BUILD-2023.10.25.23.40
+  revealmd: BUILD-2023.10.26.01.20
   landing: BUILD-2023.10.24.06.37
 deploy:
   ci:
