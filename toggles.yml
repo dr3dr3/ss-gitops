@@ -2,7 +2,7 @@ toggles:
   cicd:
     check-links: 
       build: false
-      ci: true
+      ci: false
       stg: true
-      can: true
-      prd: true
+      can: false
+      prd: false
