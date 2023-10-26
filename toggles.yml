@@ -1,0 +1,8 @@
+toggles:
+  cicd:
+    check-links: 
+      build: true
+      ci: true
+      stg: true
+      can: true
+      prd: true
