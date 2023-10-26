@@ -1,7 +1,7 @@
 toggles:
   cicd:
     check-links: 
-      build: true
+      build: false
       ci: true
       stg: true
       can: true
