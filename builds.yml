@@ -4,7 +4,7 @@ build:
   featurevisor: BUILD-2023.10.27.07.05
 deploy:
   ci:
-    revealmd: BUILD-2023.10.26.09.51
+    revealmd: BUILD-2023.10.29.12.43
     landing: BUILD-2023.10.29.12.21
   stg:
     revealmd: BUILD-2023.10.26.09.51
