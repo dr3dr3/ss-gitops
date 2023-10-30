@@ -13,5 +13,5 @@ deploy:
     revealmd: BUILD-2023.10.30.09.39
     landing: BUILD-2023.10.30.10.01
   prd:
-    revealmd: BUILD-2023.10.29.12.43
+    revealmd: BUILD-2023.10.30.09.39
     landing: BUILD-2023.10.30.10.01
