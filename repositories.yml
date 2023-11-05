@@ -25,17 +25,20 @@ repositories:
       ref: dr3dr3/ss-gitops
       secret-GHA_PAT: true
   deployment:
-    stage:
+    stg:
+      name: Stage
       ref: dr3dr3/devops-demo-stg
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-stg/
       var-SITE_URL: https://stg.andredreyer.com/
       deploy-to: GHP
     blue:
+      name: Blue
       ref: dr3dr3/devops-demo-can
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-can/
       var-SITE_URL: https://can.andredreyer.com/
       deploy-to: GHP
     green:
+      name: Green
       ref: dr3dr3/devops-demo-prd
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-prd/
       var-SITE_URL: https://www.andredreyer.com/
