@@ -16,6 +16,7 @@ repositories:
       var-GHP_URL: https://dr3dr3.github.io/ss-landing/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      ci-deploy-to: GHP
   core:
     pipeline:
       ref: dr3dr3/ss-pipeline
