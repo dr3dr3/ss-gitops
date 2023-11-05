@@ -5,8 +5,10 @@ repositories:
       active: true
       var-CI_PATTERN: TBD_MAIN
       var-GHP_URL: https://dr3dr3.github.io/devops-demo/
+      var-SITE_URL: https://ci-slides.andredreyer.com/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      ci-deploy-to: GHP
     landing: 
       ref: dr3dr3/ss-landing
       active: true
