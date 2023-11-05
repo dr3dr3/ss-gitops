@@ -11,7 +11,7 @@ deploy:
     landing: BUILD-2023.11.05.13.06
   can:
     revealmd: BUILD-2023.11.02.07.26
-    landing: BUILD-2023.11.05.12.45
+    landing: BUILD-2023.11.05.13.06
   prd:
     revealmd: BUILD-2023.11.02.07.26
     landing: BUILD-2023.10.30.22.11
