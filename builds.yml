@@ -1,6 +1,6 @@
 build:
   revealmd: BUILD-2023.11.05.13.22
-  landing: BUILD-2023.11.05.14.38
+  landing: BUILD-2023.11.05.22.37
   featurevisor: BUILD-2023.10.27.07.05
 deploy:
   ci:
