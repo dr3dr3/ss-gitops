@@ -3,6 +3,6 @@ toggles:
     check-links: 
       build: false
       ci: false
-      stg: true
+      stg: false
       blue: false
       green: false
