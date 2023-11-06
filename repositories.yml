@@ -55,5 +55,5 @@ repositories:
       site-url: www.andredreyer.com
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-prd/
       var-SITE_URL: https://www.andredreyer.com/
-      blue-deploy-to: GHP
-      green-deploy-to: VERCEL
+      blue-deploy-to: VERCEL
+      green-deploy-to: GHP
