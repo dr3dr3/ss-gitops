@@ -4,5 +4,4 @@ toggles:
       build: false
       ci: false
       stg: false
-      blue: false
-      green: false
+      prd: false
