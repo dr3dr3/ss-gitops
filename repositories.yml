@@ -51,7 +51,7 @@ repositories:
     blue:
       name: Blue
       ref: dr3dr3/devops-demo-can
-      site-url: https://can.andredreyer.com/
+      site-url: https://www.andredreyer.com/
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-can/
       var-SITE_URL: https://can.andredreyer.com/
       deploy-to: GHP
