@@ -17,6 +17,22 @@ repositories:
       secret-GHA_PAT: true
       secret-IFTTT: true
       ci-deploy-to: GHP
+    featurevisor:
+      ref: dr3dr3/devops-demo-ff
+      active: true
+      var-CI_PATTERN: TBD_MAIN
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo-ff/
+      secret-GHA_PAT: true
+      secret-IFTTT: true
+      ci-deploy-to: GHP
+    docusaurus:
+      ref: dr3dr3/devops-demo-docs
+      active: false
+      var-CI_PATTERN: TBD_MAIN
+      var-GHP_URL: https://dr3dr3.github.io/devops-demo-docs/
+      secret-GHA_PAT: true
+      secret-IFTTT: true
+      ci-deploy-to: GHP    
   core:
     pipeline:
       ref: dr3dr3/ss-pipeline
