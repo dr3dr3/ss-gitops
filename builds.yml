@@ -8,7 +8,7 @@ deploy:
     landing: BUILD-2023.11.06.00.23
   stg:
     revealmd: BUILD-2023.11.05.13.22
-    landing: BUILD-2023.11.05.23.14
+    landing: BUILD-2023.11.06.00.23
   can:
     revealmd: BUILD-2023.11.05.13.22
     landing: BUILD-2023.11.05.13.06
