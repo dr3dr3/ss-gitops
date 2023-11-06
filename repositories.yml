@@ -44,10 +44,10 @@ repositories:
     stg:
       name: Stage
       ref: dr3dr3/devops-demo-stg
-      site-url: stg.andredreyer.com
+      site-url: devops-demo-stg.surge.sh
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-stg/
       var-SITE_URL: https://stg.andredreyer.com/
-      deploy-to: GHP
+      deploy-to: SURGE
     blue:
       name: Blue
       ref: dr3dr3/devops-demo-can
