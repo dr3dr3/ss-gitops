@@ -8,7 +8,7 @@ deploy:
     landing: BUILD-2023.11.06.02.29
   stg:
     revealmd: BUILD-2023.11.05.13.22
-    landing: BUILD-2023.11.06.00.23
+    landing: BUILD-2023.11.06.02.29
   blue:
     revealmd: BUILD-2023.11.05.13.22
     landing: BUILD-2023.11.05.13.06
