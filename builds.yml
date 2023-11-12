@@ -5,7 +5,7 @@ build:
 deploy:
   ci:
     revealmd: BUILD-2023.11.05.13.22
-    landing: BUILD-2023.11.12.02.00
+    landing: BUILD-2023.11.12.02.32
   stg:
     blue:
       revealmd: BUILD-2023.11.05.13.22
