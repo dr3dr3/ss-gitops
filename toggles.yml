@@ -2,6 +2,7 @@ toggles:
   cicd:
     check-links: 
       build: false
+      sbx: false
       ci: false
       stg: false
       prd: false
