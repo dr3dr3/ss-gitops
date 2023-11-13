@@ -8,6 +8,7 @@ repositories:
       var-SITE_URL: https://ci-slides.andredreyer.com/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      sbx-deploy-to: SURGE
       ci-deploy-to: GHP
     landing: 
       ref: dr3dr3/ss-landing
@@ -16,6 +17,7 @@ repositories:
       var-GHP_URL: https://dr3dr3.github.io/ss-landing/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      sbx-deploy-to: SURGE
       ci-deploy-to: GHP
     featurevisor:
       ref: dr3dr3/devops-demo-ff
@@ -24,6 +26,7 @@ repositories:
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-ff/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      sbx-deploy-to: NA
       ci-deploy-to: GHP
     docusaurus:
       ref: dr3dr3/devops-demo-docs
@@ -32,6 +35,7 @@ repositories:
       var-GHP_URL: https://dr3dr3.github.io/devops-demo-docs/
       secret-GHA_PAT: true
       secret-IFTTT: true
+      sbx-deploy-to: SURGE
       ci-deploy-to: GHP    
   core:
     pipeline:
